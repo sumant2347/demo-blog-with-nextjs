@@ -1,0 +1,5 @@
+import React from "react";
+import "../public/global.css";
+export default function App({ Component, pageProps }) {
+  return <Component {...pageProps} />;
+}
