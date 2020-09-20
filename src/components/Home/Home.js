@@ -1,5 +1,5 @@
 import React from "react";
-import { getSortedPostsData } from "../../lib/posts";
+import { getSortedPostsData } from "../../../lib/posts";
 export default function Home({ allPostsData }) {
   return (
     <Layout home>
