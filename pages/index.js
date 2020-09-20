@@ -10,7 +10,7 @@ export default function Home({ allPostsData, fakeData }) {
   return (
     <Layout home>
       <Head>
-        <title>SK Portfolio</title>
+        <title>Sample Blog</title>
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
