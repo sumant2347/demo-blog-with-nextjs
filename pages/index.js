@@ -4,7 +4,7 @@ import utilStyles from "../styles/utils.module.css";
 import { getSortedPostsData } from "../lib/posts";
 import Axios from "axios";
 import Link from "next/link";
-import Date from "../src/components/Date";
+import Date from "../src/components/Date/Date";
 
 export default function Home({ allPostsData, fakeData }) {
   return (

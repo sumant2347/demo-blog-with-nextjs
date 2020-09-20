@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../../src/components/Layout/Layout";
 import { getAllPostIds, getPostData } from "../../lib/posts";
-import Date from "../../src/components/Date";
+import Date from "../../src/components/Date/Date";
 import Head from "next/head";
 import utilStyles from "../../styles/utils.module.css";
 export default function Post({ postData }) {
